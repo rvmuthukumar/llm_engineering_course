@@ -1,38 +1,69 @@
-python-dotenv
-ipykernel
-ipywidgets
-requests
-numpy
-pandas
-scipy
-scikit-learn
-matplotlib
-torch
-transformers
-tqdm
-openai
-gradio
-langchain
-langchain-core
-langchain-text-splitters
-langchain-openai
-langchain-chroma
-langchain-community
-datasets==3.6.0
-matplotlib
-google-generativeai
-anthropic
-chromadb
-plotly
-jupyter-dash
-beautifulsoup4
-pydub
-modal
-ollama
-psutil
-setuptools
-speedtest-cli
-sentence_transformers
-feedparser
-protobuf==3.20.2
-wandb
+#########################
+# Data Science & ML
+#########################
+numpy               # Fundamental package for numerical computations
+pandas              # Data analysis and manipulation tool
+scipy               # Scientific and technical computing
+scikit-learn        # Machine learning algorithms and tools
+torch               # Deep learning and tensor computations (PyTorch)
+datasets==3.6.0     # Ready-to-use datasets for ML and NLP
+
+#########################
+# LLMs & AI APIs
+#########################
+openai                  # OpenAI API for LLMs and embeddings
+ollama                  # Local LLM inference and management
+anthropic               # Anthropic Claude LLM API
+google-generativeai     # Google Generative AI API
+transformers            # Hugging Face Transformers for LLMs
+sentence_transformers   # Sentence embeddings and similarity
+langchain               # Framework for LLM-powered applications
+langchain-core          # Core utilities for LangChain
+langchain-text-splitters # Text splitting utilities for LangChain
+langchain-openai        # OpenAI integration for LangChain
+langchain-chroma        # Chroma vector store integration for LangChain
+langchain-community     # Community integrations for LangChain
+chromadb                # Chroma vector database for embeddings
+
+#########################
+# Visualization
+#########################
+matplotlib      # 2D plotting and visualization
+plotly          # Interactive plotting and dashboards
+jupyter-dash    # Dash apps in Jupyter notebooks
+wandb           # Experiment tracking and visualization
+
+#########################
+# Notebook & Widgets
+#########################
+ipykernel       # Jupyter kernel for Python code execution
+ipywidgets      # Interactive widgets for Jupyter notebooks
+
+#########################
+# Utilities
+#########################
+python-dotenv      # Loads environment variables from .env files
+requests           # HTTP requests and web APIs
+tqdm               # Progress bars for loops and tasks
+psutil             # System and process utilities
+setuptools         # Python package build and distribution
+speedtest-cli      # Internet speed testing from command line
+protobuf==3.20.2   # Protocol Buffers serialization
+feedparser         # Parse RSS and Atom feeds
+beautifulsoup4     # HTML and XML parsing
+
+#########################
+# Audio
+#########################
+pydub           # Audio manipulation and processing
+
+#########################
+# Web & UI
+#########################
+gradio          # Build web UIs for ML models
+
+#########################
+# Others / Unclassified
+#########################
+modal           # Cloud functions and serverless execution
+
